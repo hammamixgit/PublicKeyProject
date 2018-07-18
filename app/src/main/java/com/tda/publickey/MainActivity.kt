@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
         val spkInfo = SubjectPublicKeyInfo.getInstance(pubBytes)
         val primitive = spkInfo.publicKeyData.encoded
-txt.text=DERUTF8String.fromByteArray(primitive).toString()
+txt.text="txt ="+DERUTF8String.fromByteArray(primitive).toString()
     //    Log.d("xxxx", DERUTF8String.fromByteArray(primitive).toString())
     }
 }
